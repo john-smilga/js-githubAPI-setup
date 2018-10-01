@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- bootstrap css -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <!-- main css -->
+ <link rel="stylesheet" href="css/main.css">
+ <!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+ <!-- font awesome -->
+ <link rel="stylesheet" href="css/all.css">
+ <title>Github</title>
+ <style>
+ </style>
+</head>
+
+<body>
+
+ <div class="container">
+  <div class="row">
+   <div class="col mt-4">
+    <img src="img/github-logo.png" class="d-block mx-auto" width="300" alt="">
+    <h4 class="text-uppercase text-center mb-4">search github user</h4>
+    <div class="feedback alert alert-danger text-center text-capitalize">
+    </div>
+    <form id='searchForm' class="mb-5">
+     <div class="input-group">
+      <input type="text" class="form-control form-control-lg" id="searchUser">
+      <div class="input-group-append">
+       <button type="submit" class="btn submitBtn text-capitalize">search github</button>
+      </div>
+     </div>
+    </form>
+    <section id="github-users">
+
+
+     <!-- single user -->
+     <div class="row single-user my-3">
+      <!-- <div class=" col-sm-6 col-md-4 user-photo my-2">
+       <img src="img/contBcg-0.jpeg" class="img-fluid" alt="">
+      </div>
+      <div class="col-sm-6 col-md-4 user-info text-capitalize my-2">
+       <h6>name : <span>name</span></h6>
+       <h6>blog : <a href="#" class="badge badge-primary">blog</a> </h6>
+       <h6>github : <a href="#" class="badge badge-primary">link</a> </h6>
+       <h6>public repos : <span class="badge badge-success">20</span> </h6>
+      </div>
+      <div class=" col-sm-6 col-md-4 user-repos my-2">
+       <button type="button" id="getRepos" class="btn reposBtn text-capitalize mt-3">
+        get repos
+       </button>
+      </div> -->
+
+
+
+
+     </div>
+     <!-- end of single user -->
+    </section>
+   </div>
+
+  </div>
+ </div>
+
+
+
+
+
+ <!-- jquery -->
+ <script src="js/jquery-3.3.1.min.js"></script>
+ <!-- bootstrap js -->
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <!-- script js -->
+ <script src="js/app.js"></script>
+</body>
+
+</html>

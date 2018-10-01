@@ -1,0 +1,37 @@
+:root {
+  --mainWhite: #f5f5f5;
+  --mainBlack: #333333;
+  --mainBlue: #9edaef;
+}
+body {
+  background: var(--mainWhite);
+  color: #333333;
+}
+.submitBtn,
+.reposBtn {
+  border-color: var(--mainBlue);
+  background: transparent;
+  color: var(--mainBlue);
+}
+.submitBtn:hover {
+  background: var(--mainBlue);
+  color: var(--mainBlack);
+}
+.reposBtn:hover {
+  background: var(--mainBlue);
+  color: var(--mainBlack);
+}
+.form-control {
+  border-color: var(--mainBlue);
+}
+.feedback {
+  display: none;
+}
+.showItem {
+  display: block;
+}
+
+.user-repos {
+  height: 20rem;
+  overflow: scroll !important;
+}
